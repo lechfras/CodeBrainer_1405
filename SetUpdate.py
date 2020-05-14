@@ -8,3 +8,18 @@ print(b)
 print("Set Union")
 k=a|b
 print(k)
+
+#Set Intersection
+print("Set Intersection")
+k=a&b
+print(k)
+
+# SetDifferences
+print("Set Differences")
+k=(a-b)
+print(k)
+
+#Set Symmetric Differences
+print("Set Symmetric Differences")
+k=(a^b)
+print(k)
